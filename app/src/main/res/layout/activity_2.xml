@@ -7,12 +7,33 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="85dp"
-        android:layout_height="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="monospace"
+        android:text="Contacts"
+        android:textSize="36sp"
+        app:fontFamily="monospace" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginBottom="30dp"
-        android:text="Activities 2"
+        android:id ="@+id/tv_phonebook"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:fontFamily="casual"
         />
+
+
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 </RelativeLayout>

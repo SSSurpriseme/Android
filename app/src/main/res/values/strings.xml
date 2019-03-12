@@ -1,6 +1,7 @@
 <resources>
     <string name="Activities">Activities</string>
     <string name="app_name">BillsCheck</string>
+    <string name= "tv_phonebook"></string>
     <string-array name="names">
         <item>Bills_Check</item>
         <item>Events</item>
